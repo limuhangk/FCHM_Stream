@@ -5,32 +5,6 @@ import java.io.Writer;
 import java.util.*;
 
 /**
- * 1，跳表的一种实现方法，用于练习。跳表中存储的是正整数，并且存储的是不重复的。
- * 2，本类是参考作者zheng ，自己学习，优化了添加方法
- * 3，看完这个，我觉得再看ConcurrentSkipListMap 源码，会有很大收获
- * Author：ldb
- * <p>
- * <p>
- * https://juejin.cn/post/6844903446475177998
- * https://www.jianshu.com/p/9d8296562806
- * https://juejin.cn/post/7009520476447997966
- * <p>
- * https://juejin.cn/post/6844903446475177998
- * https://www.jianshu.com/p/9d8296562806
- * https://juejin.cn/post/7009520476447997966
- * <p>
- * https://juejin.cn/post/6844903446475177998
- * https://www.jianshu.com/p/9d8296562806
- * https://juejin.cn/post/7009520476447997966
- */
-
-/**
- * https://juejin.cn/post/6844903446475177998
- * https://www.jianshu.com/p/9d8296562806
- * https://juejin.cn/post/7009520476447997966
- */
-
-/**
  * 跳表中存储支持度相同的项集，存储的时候实际上就按照项集本身来存储就行，
  * 不用按照长度来区分，结果集中不存在相同的项集
  * 所以也就没有必要区分是否有相同长度的项集。
